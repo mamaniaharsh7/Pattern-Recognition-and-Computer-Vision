@@ -1,6 +1,5 @@
 // experiment_filter.cpp
-// Harsh [Your Last Name]
-// Date: [Today's Date]
+// Harsh Vijay Mamania
 // Purpose: Generalized blur implementations for FFT performance study
 
 #include "filter.h"
@@ -351,4 +350,5 @@ int experiment_blurOpenCV(cv::Mat& src, cv::Mat& dst, int kernel_size) {
     double sigma = 0.3 * ((kernel_size - 1) * 0.5 - 1) + 0.8;
     cv::GaussianBlur(src, dst, cv::Size(kernel_size, kernel_size), sigma);
     return 0;
+
 }

@@ -13,6 +13,29 @@
 This project implements a real-time video processing interface with multiple image filters and effects, including classical computer vision techniques and modern deep learning-based depth estimation. 
 
 ---
+ 
+## Tasks Summary
+ 
+- **Task 1:**  Display live video
+- **Task 2:**  Greyscale live video
+- **Task 3:**  Alternative greyscale live video
+- **Task 4:**  Sepia tone filter
+- **Task 5:**  5x5 blur filter
+- **Task 6:**  3x3 Sobel X and 3x3 Sobel Y filter as separable 1x3 filters 
+- **Task 7:**  Gradient Magnitude Image from the X and Y Sobel images
+- **Task 8:**  Blur and Quantizes a color image
+- **Task 9:**  Detect faces in an image
+- **Task 10:**  Depth Anything V2 network to get depth estimates in video feed.
+- **Task 11:**   Control based Brightness and Contrast Manipulation
+- **Task 12:**   The ‘Emboss’ effect
+- **Task 13:**   The ‘Potrait’ effect 
+- **Extension 1:** The Rockstar Aura (Adaptive Sunglasses + Particle Effects)
+                  - Brightness-Sensitive Adaptive Lenses
+                  - Scene-Reflecting Mirror Lenses
+                  - Animated Particle Aura System 
+- **Extension 2:** FFT-Based Convolution: A Benchmarking Study Across Kernel Sizes and Filter Approaches
+
+---
 
 ## File Descriptions
 

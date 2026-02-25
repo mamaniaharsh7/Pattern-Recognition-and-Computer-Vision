@@ -7,14 +7,15 @@
  
 ## Tasks Summary
  
-- **Task 1:** Baseline Matching (ssd_match.cpp)
+- **Task 1:** Baseline Matching - using pixel-level features (ssd_match.cpp)
 - **Task 2:** Histogram Matching - RG Chromaticity & RGB (matching.cpp, features.cpp)
 - **Task 3:** Multi-Histogram Matching (matching.cpp, features.cpp)
-- **Task 4:** Texture and Color (image_match.cpp, filter.cpp)
-- **Task 5:** Deep Network Embeddings (matching.cpp, features.cpp)
-- **Task 6:** DNN vs Classical Comparison (analysis across all methods)
-- **Task 7:** Custom Design - Hybrid Approach (custom_match.cpp)
-- **Extension:** PCA Dimensionality Reduction (matching.cpp, features.cpp)
+- **Task 4:** Texture (Sobel gradient magnitude histograms) and Color (HSV histogram) matching (image_match.cpp, filter.cpp)
+- **Task 5:** Deep Network Embeddings - using pre-trained ResNet18 (matching.cpp, features.cpp)
+- **Task 6:** DNN Embeddings & Classic Features Comparison (analysis across all methods)
+- **Task 7:** Hybrid Deep and Classical Feature Fusion (custom_match.cpp)
+- **Extension1:**  PCA experimentation study: to look closely at the intrinsic dimensionality and subspace structure of 512-dimensional ResNet embeddings under varying compression regimes (matching.cpp, features.cpp)
+- **Extension2:** Segmentation-Based Deep Features for Image Retrieval
 
 ---
  

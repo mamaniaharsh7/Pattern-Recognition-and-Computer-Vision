@@ -1,0 +1,1 @@
+Morphologically cleaned up images

@@ -434,7 +434,7 @@ std::map<std::string, std::vector<float>> applyPCA(
         for (int j = 0; j < n_components; j++) {
             float projection = 0.0f;
 
-            // Dot product: centered_embedding · eigenvector[j]
+            // Dot product: centered_embedding Â· eigenvector[j]
             for (int k = 0; k < n_features; k++) {
                 projection += centered_data.at<float>(i, k) *
                     eigenvectors.at<float>(k, j);

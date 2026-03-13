@@ -12,8 +12,9 @@
 
 This project implements a real-time video processing interface with multiple image filters and effects, including classical computer vision techniques and modern deep learning-based depth estimation. 
 
+Link to Report: https://docs.google.com/document/d/13uOo0BeA-XETnZSXFTagsvAsiawbspEYO55PEehSQ7w/edit?usp=sharing
+
 ---
- 
 ## Tasks Summary
  
 - **Task 1:**  Display live video

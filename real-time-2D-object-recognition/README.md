@@ -13,6 +13,7 @@
 
 This project implements a real-time 2D object recognition system capable of identifying objects placed on a uniform white background using a downward-facing webcam. The system processes live video through a multi-stage pipeline: dynamic thresholding, morphological filtering, connected components analysis, moment-based feature extraction, and nearest-neighbor classification. It supports recognition of up to 10 distinct objects and can detect up to 3 objects simultaneously. A CNN embedding-based one-shot classification mode using a pre-trained ResNet18 network is also implemented alongside the hand-crafted feature pipeline.
 
+**Link to Report:** https://docs.google.com/document/d/1D6m_GNETuhgHDkXGXPYSS8QGVcKGgAUn0A0Qw_PnzcQ/edit?usp=sharing
 **Link to Demo Video:** https://drive.google.com/file/d/1dA2q8kXkPgLNkyLNd-A5uUciM8vvJaxO/view?usp=sharing
 
 ---
